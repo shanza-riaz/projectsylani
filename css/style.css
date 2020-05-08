@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: white;
+}
+.top{
+background:#316dc3 ;
+}
+a{
+    display: inline-block;
+}
+a:hover{
+    background-color:#3480eb;
+    
+}
+#top_heading{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    float: left;
+    font-size: 12px;
+}
+a{
+color: white;
+}
+
+#logo{
+    max-height: 40px;
+    
+}
+.options{
+    float: left;
+    list-style: none;
+    padding: 15px;
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+.options a:hover{
+    border-radius: 5px;
+}
+.slider{
+width: 100%;
+}
+.slider{
+    width: 100%;
+    }
+    .slider img{
+        width: 100%;
+    }
+ .mar{
+        margin-top: 20px;
+    }
+.body{
+    margin-top: 40px;
+}
+.body ul{
+    width: 960px;
+}
+.body ul li{
+    list-style: none;
+}
+.body ul li p{
+    text-align: justify;
+    font-size: 12px;
+    color: lightslategrey;
+}
+.count{
+    background-color: blue;
+    width: 100%; !important
+}
+.main{
+    margin-left: 50px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 100px;
+}
+.test {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin-left: 5px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .test:hover .image {
+    opacity: 0.3;
+  }
+  
+  .test:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.contact li{
+    width: 40px;
+    height: 40px;
+    border-radius:20px ;
+    background-color:#316dc3;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+.contact li a:hover{
+    width: 40px;
+    height: 40px;
+    border-radius:20px ;
+    background-color:#316dc3;
+  
+}
